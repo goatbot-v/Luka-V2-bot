@@ -4,7 +4,7 @@
     aliases: ["t", "dr"],
     version: "1.0",
     author: "Ronald",
-    role: 0,
+    role: 2,
     shortDescription: {
       fr: "le temps après le researt"
     },
