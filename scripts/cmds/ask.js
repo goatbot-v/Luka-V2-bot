@@ -30,7 +30,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("✌Bën 😉 (⁠╯⁠°⁠□⁠°⁠）⁠╯ C'est quoi ta putain de question :");
+        await message.reply("✌ 𝐑𝐚𝐲𝐝 𝐛𝐨𝐭 😉 (⁠╯⁠°⁠□⁠°⁠）⁠╯ 𝐬𝐚𝐥𝐮𝐭 𝐣𝐞 𝐬𝐮𝐢𝐬 𝐥𝐞 𝐛𝐨𝐭 𝐝𝐞 𝐑𝐀𝐘𝐃 𝐜𝐨𝐦𝐦𝐞𝐦𝐭 𝐩𝐮𝐢𝐬-𝐣𝐞 𝐭'𝐚𝐢𝐝𝐞𝐫 !:");
         return;
       }
 
@@ -39,10 +39,10 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: ` Mortel voici les résultats des vos recherches : 
+    await message.reply({ body: ` 🎉 𝐑𝐚𝐲𝐝 𝐛𝐨𝐭 : 
 ______________________________  
 ${answer}
-(*・_・)ノ 🏅 Bënÿ écrive $botgc pour intégrer mon groupe prive 😏 🏅`,
+🎉 🏅 𝐑𝐚𝐲𝐝 𝐛𝐨𝐭 🏅`,
 });
 
    } catch (error) {
